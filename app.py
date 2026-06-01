@@ -7,11 +7,36 @@ import random
 # Page Configuration
 st.set_page_config(page_title="Bio-Quantum Nexus Enterprise", page_icon="🛰️", layout="wide")
 
-# Custom CSS for futuristic feel
+# Custom CSS for Deep Ocean Blue & Futuristic Theme
 st.markdown("""
     <style>
-    .main { background-color: #0e1117; color: #ffffff; }
-    .stMetric { background-color: #1f2937; padding: 15px; border-radius: 10px; border: 1px solid #3b82f6; }
+    /* Main Background with Deep Cyber Blue Gradient */
+    .stApp {
+        background: linear-gradient(135deg, #051329 0%, #0a2246 50%, #020c1b 100%);
+        color: #e2e8f0;
+    }
+    
+    /* Glowing Blue Metric Cards */
+    div[data-testid="stMetricSimpleRegion"] {
+        background-color: rgba(10, 37, 74, 0.6);
+        padding: 20px;
+        border-radius: 12px;
+        border: 2px solid #00d2ff;
+        box-shadow: 0px 0px 15px rgba(0, 210, 255, 0.3);
+    }
+    
+    /* Sidebar styling */
+    section[data-testid="stSidebar"] {
+        background-color: #030f21 !important;
+        border-right: 2px solid #0072ff;
+    }
+    
+    /* Headers customized for clarity */
+    h1, h2, h3 {
+        color: #00d2ff !important;
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: 0px 0px 10px rgba(0, 210, 255, 0.5);
+    }
     </style>
     """, unsafe_allow_html=True)
 
