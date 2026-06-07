@@ -8,8 +8,9 @@ An interconnected biological and quantum space infrastructure designed to protec
 ---
 
 ## 🏗️ System Architecture Blueprint
+<img width="1024" height="559" alt="ff" src="https://github.com/user-attachments/assets/c4b548c9-dcac-47f5-bab8-f468c75b3b4f" />
 
-![Bio-Quantum Nexus Architecture](https://res.cloudinary.com/practicaldev/image/fetch/s--V_S6Wv3V--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/http%3A%2F%2Fgoogleusercontent.com%2Fimage_collection%2Fimage_retrieval%2F15636785348035656277_0)
+
 
 ### 📊 Blueprint Explanation & System Flow:
 
